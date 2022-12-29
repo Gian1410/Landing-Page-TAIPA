@@ -1,0 +1,126 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+/* colors */
+:root{
+    --primary-color:#125b50;
+    --secondary-color:#F8B400;
+    --background-color: #E8DACA;
+    --black: #010101;
+    --white: #ffffff;
+    --gray-color: #7D7D7D;
+}
+
+body{
+    background-image: url(/assets/img/brand/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* navbar */
+
+.navbar-collapse {
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.navbar-nav a{
+    font-family:'Mitr', sans-serif;
+    font-weight: 300;
+    color: white;
+}
+
+.navbar-nav a:hover{
+    color: var(--secondary-color);
+}
+
+.descarga button{
+    border: 2px solid ;
+}
+
+.descarga button:hover{
+    color: var(--primary-color);
+}
+
+
+
+/* contenido de main */
+
+
+
+.row{
+    justify-content: center;
+    align-items: center;
+}
+.descripcion{
+    width: 30%;
+    padding: 20px;
+    background-color: var(--white);
+    border-radius: 10px;
+    box-shadow: 11px 19px 5px 0px rgba(0,0,0,0.39);
+    -webkit-box-shadow: 11px 19px 5px 0px rgba(0,0,0,0.39);
+    -moz-box-shadow: 11px 19px 5px 0px rgba(0,0,0,0.39);
+}
+
+.descripcion h5{
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+
+.descripcion h2{
+    font-size: 3rem;
+    font-family: 'Rubik Mono One', sans-serif;
+    color: var(--secondary-color);
+}
+
+.col button{
+    border-color: #F8B400;
+    color: #F8B400;
+}
+
+.col button:hover{
+    background-color: #F8B400;
+    color: var(--primary-color);
+}
+
+.food{
+    border: 6px dotted #E8DACA;
+    border-radius: 50%;
+}
+
+
+/* informacion de beneficios */
+.columna-beneficios{
+    background-color: var(--white);
+    border-radius: 10px;
+    height: 400px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.beneficios h2{
+    color: white;
+    margin: 50px;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+.row .beneficios{
+    display: flex;
+}
+
+/* footer */
+footer{
+    padding: 100px;
+    color: white;
+}
+
+.row .beneficios{
+    align-items: center;
+
+}
+
+.row i{
+    font-size: 40px;
+}
